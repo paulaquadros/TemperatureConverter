@@ -6,7 +6,7 @@ public class TemperatureConverter {
             throw new IllegalArgumentException("Celsius value cannot be null");
         }
 
-        return celsius * 9.0 / 10.0 + 32.0;
+        return celsius * 9.0 / 5.0 + 32.0;
     }
 
     public static double convertFahrenheitToCelsius(Double fahrenheit) {
@@ -14,6 +14,6 @@ public class TemperatureConverter {
             throw new IllegalArgumentException("Fahrenheit value cannot be null");
         }
 
-        return (fahrenheit - 32.0) * 16.0 / 9.0;
+        return (fahrenheit - 32.0) * 5.0 / 9.0;
     }
 }
