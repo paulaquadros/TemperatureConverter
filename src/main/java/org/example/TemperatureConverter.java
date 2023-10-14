@@ -1,7 +1,7 @@
 package org.example;
 
 public class TemperatureConverter {
-    public static double convertCelsiusToFahrenheit(Double celsius) {
+    public static double erro proposital convertCelsiusToFahrenheit(Double celsius) {
         if (celsius == null) {
             throw new IllegalArgumentException("Celsius value cannot be null");
         }
